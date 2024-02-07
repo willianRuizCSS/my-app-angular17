@@ -2,7 +2,8 @@
 
 <ul>
   @for (game of games; track game.id) {
-    <li>
+    <li    (click)="fav(game.name)">
+   
       {{game.name}}
     </li>
   }
