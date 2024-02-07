@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { GamesComponent } from '../games/games.component';
 
+
 @Component({
   selector: 'app-user',
   standalone: true,
@@ -9,11 +10,11 @@ import { GamesComponent } from '../games/games.component';
   styleUrl: './user.component.css'
 })
 export class UserComponent {
-username='willian';
-isLiggedIn=false;
+  username = 'willian';
+  isLiggedIn = false;
 
-greet() {
-  alert('Hola ! ! ! ');
+  greet() {
+    alert('Hola ! ! ! ');
   }
 
 }
