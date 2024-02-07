@@ -1,8 +1,11 @@
 <section>
   @if (isLiggedIn){
     <p>Bienvenido , {{username}}!</p>
+    <img (click)="greet()"
+     src="http://github.com/willianRuizCSS.png" alt="photo">
   }@else {
     <p>¡ Inicia sesión !</p>
+    <button (click)="isLiggedIn=true">>Log In</button>
   }
   <app-games/>
 

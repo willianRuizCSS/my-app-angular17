@@ -10,5 +10,10 @@ import { GamesComponent } from '../games/games.component';
 })
 export class UserComponent {
 username='willian';
-isLiggedIn=true;
+isLiggedIn=false;
+
+greet() {
+  alert('Hola ! ! ! ');
+  }
+
 }
